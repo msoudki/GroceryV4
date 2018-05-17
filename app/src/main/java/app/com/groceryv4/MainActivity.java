@@ -1,6 +1,5 @@
 package app.com.groceryv4;
 
-import android.app.Application;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;

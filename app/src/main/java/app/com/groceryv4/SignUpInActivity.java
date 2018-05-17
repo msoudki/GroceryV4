@@ -30,6 +30,10 @@ public class SignUpInActivity extends AppCompatActivity {
                 AuthUI.getInstance()
                         .createSignInIntentBuilder()
                         .setAvailableProviders(providers)
+                        .setLogo(R.drawable.ic_launcher_background)
+                        .setTheme(R.style.Theme_AppCompat)
+                        //.setTosUrl("https://superapp.example.com/terms-of-service.html") //custom terms of services
+                       // .setPrivacyPolicyUrl("https://superapp.example.com/privacy-policy.html") //custom privacy policy
                         .build(),
                 RC_SIGN_IN);
     }
